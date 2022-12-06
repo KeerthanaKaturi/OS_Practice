@@ -1,6 +1,6 @@
 CC=gcc
 main: main.o add.o sub.o
-	$(CC) -o main main.o add.o sub.o
+	$(CC) -o main main.o add.o sub.o -larith1 -L.
 main.o: main.c
 	$(CC) -c -o main.o main.c
 add.o: add.c

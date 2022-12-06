@@ -6,5 +6,9 @@ int main()
     printf("sum = %d\n",sum);
     int diff = sub(10,20);
     printf("difference = %d\n",diff);
+    int prod = mul(10,20);
+    printf("product = %d\n",prod);
+    int quo = div(10,20);
+    printf("Quotient = %d\n",quo);
     return 0;
 }
