@@ -28,6 +28,9 @@
     git add *
     git commit -m "message"
     git log
+    git config user.name "keerthanakaturi"
+    git config user.email "keerthanakaturi@gmail.com"
+    git status
     '''
 - Writing makefiles and libraries
     
