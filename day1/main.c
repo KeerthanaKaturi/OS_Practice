@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "arith.h"
+#include "arith1.h"
 int main()
 {
     int sum = add(10,20);
