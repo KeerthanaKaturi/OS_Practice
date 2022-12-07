@@ -9,3 +9,5 @@ sub.o: sub.c
 	$(CC) -c -o sub.o sub.c
 clean:
 	rm -rf main.o add.o sub.o main
+archive: add.o sub.o
+	ar crv libarith.a add.o sub.o
