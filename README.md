@@ -88,13 +88,27 @@
         - getpid() function is used to hold the process ID
         - in linux every process is done like tree hierarchy
         - getppid() function is used to hold parent ID(usually the bash which is nothing but the terminal)
-    - Fork
-        - Before fork
-        - After fork
-    - Dynamic library
-        - Shared object
+## Day 3
+- Fork
+    - Before fork
+    - After fork
+- Dynamic library
+    - Shared object
         gcc -o libarith.so -shared -fPIC arith.o
-        - Exporting library
-        - export LD_LIBRARY_PATH=.
+    - Exporting library
+    - export LD_LIBRARY_PATH=.
+- PCB
+- Parallelism
+    - True
+    - pseudo
+## Day 4
+- User space
+- Kernel space
+- System call
+    - open,read,write,close
+- Difference between Library and System calls
+- perror,errorno
+- stdin,stdout,stderror
+- strace
 
 
