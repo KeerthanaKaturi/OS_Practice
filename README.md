@@ -110,5 +110,15 @@
 - perror,errorno
 - stdin,stdout,stderror
 - strace
+- Pipes
+    - Related process_parent and child)
+    - Unidirectional
+    - pipe => 2 file descriptors
+- FIFO
+    - Umrelated process[5];
+    - Named piped command
+- Zombie processes
+    - Child exits or dies before parent
+- if Parent exits/dies before child,init/SysD will inherit the child process
 
 
